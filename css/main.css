@@ -1,10 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
 @font-face {
 font-family: mplus-1p-regular;
 src: url('../font/mplus-1p-regular.ttf')
      format("truetype");
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 html, body {
     margin:             5px;
