@@ -1,11 +1,124 @@
-@font-face
+/*@font-face
 {
 font-family: mplus-1p-regular;
 src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-regular.ttf')
      format("truetype");
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html, body {
+    margin:             5px;
+    padding:            0;
+    line-height:        1;
 }
 
-body
-{
-    font-family: mplus-1p-regular, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+body {
+    font-family:        "Roboto";
+    background-color:   #2a2a2a;
+    color:              #d4d4d4;
+    font-size:          small;
 }
+
+:lang(ja) {
+    font-family:        "Roboto", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-family:        "Roboto";
+    font-size:          1.5em;
+    font-weight:        normal;
+}
+
+a, a:link, a:visited {
+    color:              #60a0dc;
+    text-decoration:    none;
+}
+
+/*a:hover, a:active {
+    text-decoration:    underline;
+
+}*/
+
+span.popup:hover {
+    text-decoration:    none;
+    color:              #60dca0;
+}
+
+h1 {
+    font-size:          1.6em;
+    font-weight:        bold;
+    padding:            3px 6px 0 6px;
+    margin:             0;
+    min-height:         1px;
+}
+
+header#header {
+    margin:             0 0 12px 0;
+    border:             solid;
+    border-color:       #565656;
+    border-width:       4px 1px 1px 1px;
+    padding:            3px 0 0 0;
+    background-color:   #383838;
+    }
+
+header p {
+    margin:             2px 0 0 0;
+    padding:            0 6px 3px 6px;
+}
+
+nav {
+    padding:            3px 6px;
+    background-color:   #565656;
+}
+
+nav ul {
+    margin:             0;
+    padding:            3px 0;
+    font-size:          1em;
+}
+
+nav ul li {
+    display:            inline;
+    margin-right:       12px;
+}
+
+nav ul li a, nav ul li a:link, nav ul li a:visited {
+    color:              #d4d4d4;
+    text-decoration:    none;
+}
+
+article {
+    margin:             0 0 12px 0;
+    border:             solid;
+    border-color:       #565656;
+    border-width:       4px 1px 1px 1px;
+    background-color:   #383838;
+    }
+
+article header {
+    margin-bottom:      10px;
+    /*background:         linear-gradient(180deg, #565656, #2a2a2a);*/
+    padding:            3px 0 0 0;
+}
+
+h2 {
+    padding:            3px 6px 0 6px;
+    margin:             0;
+    font-size:          1.5em;
+}
+
+article section {
+    padding:            3px 6px;
+}
+
+section p {
+    padding:            0 0 6px 0;
+    margin:             0;
+}
+
+@media (max-resolution: 360dpi){
+  body { font-size: small; }
+}
+@media (max-resolution: 96dpi) {
+  body { font-size: medium; width: 1024px; margin: 5px auto; }
+}
+
+
