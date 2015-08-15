@@ -158,10 +158,16 @@ sup {
 }
 
 
+/*@media (max-resolution: 360dpi){
   body { font-size: small; }
 }
 @media (max-resolution: 96dpi) {
   body { font-size: medium; width: 1024px; margin: 5px auto; }
-}
-
+}*/
+@media (-webkit-min-device-pixel-ratio: 1), (-o-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
+        body { font-size: medium; margin: 5px auto; max-width: 1024px; }
+    }
+@media (-webkit-min-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 13/10), (min-resolution: 120dpi) {
+        body { font-size: small; }
+    }
 
