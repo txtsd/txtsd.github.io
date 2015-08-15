@@ -119,7 +119,45 @@ section p {
     margin:             0;
 }
 
-@media (max-resolution: 360dpi){
+
+table {
+    display:            inline-block;
+    vertical-align:     top;
+}
+
+table, td, th, caption {
+    border:             1px solid #565656;
+    border-collapse:    separate;
+    border-spacing:     2px;
+    text-align:         center;
+    table-layout:       fixed;
+    white-space:        nowrap;
+    padding:            1px;
+}
+
+caption {
+    background-color:   #565656;
+    padding:            3px 0 2px 0;
+    vertical-align:     middle;
+    display:            block;
+}
+
+tbody {
+    width:              auto;
+    display:            inline-block;
+}
+
+td, th {
+    width:              32px;
+    vertical-align:     middle;
+}
+
+sup {
+    vertical-align:     super;
+    font-size:          smaller;
+}
+
+
   body { font-size: small; }
 }
 @media (max-resolution: 96dpi) {
